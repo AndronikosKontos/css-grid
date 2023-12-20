@@ -1,0 +1,7 @@
+.basic-grid {
+    display: grid;
+    gap: 1rem;
+  
+    /* auto-fit calculates the number of cols and rows on the fly */
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
